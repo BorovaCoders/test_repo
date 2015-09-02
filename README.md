@@ -4,15 +4,19 @@ It was created to try using git and GitHub.
 
 Victor add here anything you want!
 
-
-Not, it is your turn!
+Now, it is your turn!
 Try:
 # git clone https://github.com/BorovaCoders/test_repo.git
-Then change/add something! 
+Then change/add something! Very usefull command meantime are
+# git status
+And
+# git diff
 Then
 # git add <file>
 Then
 git commit -m "My super cool commit:)"
+To check whether you have create commit and see commits list:
+# git log
 And push it! And the world would see your work.
 # git push
 
