@@ -4,6 +4,9 @@
 *.o
 *.obj
 
+# Emacs backups
+*~
+
 # Precompiled Headers
 *.gch
 *.pch
