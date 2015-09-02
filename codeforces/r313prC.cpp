@@ -11,7 +11,9 @@ int fact[N], ifact[N];
 
 typedef long long ll;
 
-// gcd(a, b) == a*x + b*y
+// Extended Euclid algorithm to compute Greatest Common Divisor.
+// gcd(a, b) == max d such as (a % d == 0 && b % d == 0).
+// Moreover we could find such x and y that: gcd(a, b) == a*x + b*y
 ll extGcd(ll a, ll b, ll& x, ll& y) {
   if (b == 0) {
     x = 1;
@@ -27,6 +29,9 @@ ll extGcd(ll a, ll b, ll& x, ll& y) {
   return d;
 }
 
+// This function calculated inverted number by modulo P.
+// Such number x that  x * a == 1 (mod P).
+// In other C++ words:   (x * a) % P == 1
 int invModP(int a, int P) {
   // a * x + P * y == 1 => a * x == 1 (mod P)
   ll x, y;
@@ -57,6 +62,8 @@ int NumWays(int di, int dj) {
   return CmodM(di + dj, di);
 }
 
+// You could look how extensivly I have covered my code with tests! :)
+// It happens very rarely. Unfortunately(
 void testGCD(ll a, ll b) {
   ll x, y;
   ll d = extGcd(a, b, x, y);
@@ -75,10 +82,10 @@ void testGCD() {
 
 void testFact() {
   if (fact[5] != 120) {
-    cout << "ERROR 5!" << endl;
+    cout << "ERROR wrong result 5! should be 120" << endl;
   }
   if (fact[28] != 35757887) {
-    cout << "ERROR 28!" << endl;
+    cout << "ERROR 28! is equal to 35757887" << endl;
   }
   const int A = 28;
   ll f = fact[A];
