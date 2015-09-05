@@ -5,25 +5,25 @@ It was created to try using git and GitHub.
 Victor, please add here anything you want!
 
 To clone repo on your machine, run:
-# git clone https://github.com/BorovaCoders/test_repo.git
+> git clone https://github.com/BorovaCoders/test_repo.git
 
 Then change/add something!
 Very useful commands meantime are
-# git status
+> git status
 To see changed files.
-# git diff
+> git diff
 To see changed content.
-# git add <file>
+> git add <file>
 To stage file (i.e. prepare for commit).
 
 When you are ready to create commit, run
-git commit -m "My super cool commit:)"
+> git commit -m "My super cool commit:)"
 
 You could also see list of all commits with:
-# git log
+> git log
 
 Then push it on github! And the world would see your hard work.
-# git push
+> git push
 
 I see, that you have already done similar, but more than year ago.
 I hope this small tutorial would be helpful to remind main git commands.
