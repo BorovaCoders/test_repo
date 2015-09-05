@@ -22,4 +22,8 @@ And push it! And the world would see your work.
 
 Good Luck!
 You have already done it.
-Just small refresher.
+Just small intro to git:)
+
+P.S. These are the most used commands.
+There are also several with branches,
+but we will cover them later.
