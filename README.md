@@ -2,28 +2,29 @@
 It is the first mutual repository of Roma and Victor.
 It was created to try using git and GitHub.
 
-Victor add here anything you want!
+Victor, please add here anything you want!
 
-Now, it is your turn!
-Try:
+To clone repo on your machine, run:
 # git clone https://github.com/BorovaCoders/test_repo.git
-Then change/add something! Very usefull command meantime are
+
+Then change/add something!
+Very useful commands meantime are
 # git status
-And
+To see changed files.
 # git diff
-Then
+To see changed content.
 # git add <file>
-Then
+To stage file (i.e. prepare for commit).
+
+When you are ready to create commit, run
 git commit -m "My super cool commit:)"
-To check whether you have create commit and see commits list:
+
+You could also see list of all commits with:
 # git log
-And push it! And the world would see your work.
+
+Then push it on github! And the world would see your hard work.
 # git push
 
+I see, that you have already done similar, but more than year ago.
+I hope this small tutorial would be helpful to remind main git commands.
 Good Luck!
-You have already done it.
-Just small intro to git:)
-
-P.S. These are the most used commands.
-There are also several with branches,
-but we will cover them later.
