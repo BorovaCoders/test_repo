@@ -2,7 +2,7 @@
 It is the first mutual repository of Roma and Victor.
 It was created to try using git and GitHub.
 
-Victor, please add here anything you want!
+Victor, please add here anything you want!!!!
 
 To clone repo on your machine, run:
 > git clone https://github.com/BorovaCoders/test_repo.git
