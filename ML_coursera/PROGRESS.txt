@@ -1,0 +1,28 @@
+1 Oct 2015
+I just finished my first coursera ML programming assignment.
+I added it to repo into folder hm1.
+Note: Most of code is already prepared by coursera lecturer.
+I don't write so much code, just complete some file.
+More info in ex1.pdf!
+
+To finish 2nd week of course I need to watch a few videos about Octave
+and pass Octave Quiz. Hopefully I will finish it on next week.
+
+30 Sep 2015
+I have finally installed MATLAB and started to do my homework.
+Indeed it is MUCH smoother experience with MATLAB on Mac OS X than
+with Octave. It just works out of the box unlike Octave.
+I have some problem with plot + Octave IDE is really succ on mac.
+
+End of July 2015
+I tried to install MATLAB during my vacation.
+But failed due to poor wifi.
+
+Mid of July 2015
+I have installed Octave and started to do homework.
+But it was SO-O-O painful.
+I have decided to install MATLAB in nearest future:)
+
+Early July 2015
+I signed on ML course, downloaded Android app on my phone
+and started to watch videos during my commuting to work.
