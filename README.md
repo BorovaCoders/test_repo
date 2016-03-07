@@ -3,7 +3,7 @@ It is the first mutual repository of Roma and Victor.
 It was created to try using git and GitHub.
 
 Victor, please add here anything you want!!!!
-
+All done my Friend, i add this line)
 To clone repo on your machine, run:
 > git clone https://github.com/BorovaCoders/test_repo.git
 
@@ -28,3 +28,4 @@ Then push it on github! And the world would see your hard work.
 I see, that you have already done similar, but more than year ago.
 I hope this small tutorial would be helpful to remind main git commands.
 Good Luck!
+Thank you, it usefull for me.
