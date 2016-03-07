@@ -3,10 +3,8 @@
 using namespace std;
 
 // Adds 2 integer numbers.
-// Not implemented yet:)
 int add(int a, int b) {
-  // NOT IMPLEMENTED
-  return -1;
+  return a + b;
 }
 
 
