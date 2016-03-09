@@ -6,9 +6,22 @@ using namespace std;
 // Math sin(x) funtion of angle x in DEGREES!
 // You could use standart library or
 // Taylor series:)
+long double MyFact(int n){
+	if(n < 0)
+	return 0;
+	else if( n == 0)
+	return 1;
+	else //if( n > 0)
+	return n*MyFact(n-1);
+}
 double my_sin(double deg) {
-  // NOT IMPLEMENTED
-  return -1.0;
+  double PI = 3.14159265359;		
+  double x = deg*PI/180;	
+  double res = 0;
+  for(int i = 0; i < 100; ++i){
+  	res += pow(-1, i)*pow(x, 2*i + 1)/MyFact(2*i + 1); 
+  }
+  return res;
 }
 
 void testSin() {
