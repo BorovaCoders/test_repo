@@ -18,11 +18,16 @@ double my_sin(double deg) {
   double PI = 3.14159265359;		
   double x = deg*PI/180;	
   double res = x;
+  double my_pow = x;
   double my_fact = 1;
+  int minus = -1;
   for(int i = 1; i < 10; ++i){
   	my_fact *= (2*i+1)*2*i;
+  	my_pow *= x*x; 
   	//res += pow(-1, i)*pow(x, 2*i + 1)/MyFact(2*i + 1); 
-  	res += pow(-1, i)*pow(x, 2*i + 1)/my_fact; 
+  	//res += pow(-1, i)*pow(x, 2*i + 1)/my_fact; 
+  	res += minus*my_pow/my_fact; 
+  	minus *= -1;
   }
   return res;
 }
