@@ -59,6 +59,8 @@ void testSin() {
   ASSERT_NEAR(-1.0, my_sin(270), eps);
   ASSERT_NEAR(sqrt(2.0)/2, my_sin(45), eps);
   ASSERT_NEAR(0.5, my_sin(30), eps);
+  ASSERT_NEAR(0.0, my_sin(360000000), eps);
+  ASSERT_NEAR(1.0, my_sin(360000090), eps);
 
   cout << "Tests finished!\n";
 }
